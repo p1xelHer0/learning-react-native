@@ -1,0 +1,24 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Required for Swift apps
+platform :ios, '10.0'
+use_frameworks!
+
+target 'BrandskyddReactNative' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for BrandskyddReactNative
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTText',
+    'RCTWebSocket', # needed for debugging
+    # Add any other subspecs you want to use in your project
+  ]
+
+  target 'BrandskyddReactNativeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

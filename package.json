@@ -1,0 +1,41 @@
+{
+  "name": "BrandskyddReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "android-emulator": "emulator -avd Nexus_6",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "add-rndebugger-open": "rndebugger-open",
+    "revert-rndebugger-open": "rndebugger-open --revert"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.34.1",
+    "react-redux": "4.4.5",
+    "redux": "3.6.0",
+    "reselect": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-preset-react-native": "^1.9.0",
+    "eslint": "3.7.0",
+    "eslint-config-standard": "6.2.0",
+    "eslint-config-standard-react": "4.2.0",
+    "eslint-loader": "1.5.0",
+    "eslint-plugin-import": "2.0.0",
+    "eslint-plugin-react": "6.3.0",
+    "jest": "^16.0.1",
+    "jest-react-native": "^16.0.0",
+    "react-native-debugger-open": "0.3.1",
+    "react-test-renderer": "^15.3.2",
+    "redux-thunk": "2.1.0",
+    "standard": "8.3.0"
+  }
+}

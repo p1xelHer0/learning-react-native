@@ -1,0 +1,395 @@
+exports[`<RoomList /> should match the snapshot 1`] = `
+<ScrollView
+  dataSource={
+    ListViewDataSource {
+      "items": 5,
+    }
+  }
+  enableEmptySections={true}
+  initialListSize={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={1000}
+  onKeyboardDidHide={undefined}
+  onKeyboardDidShow={undefined}
+  onKeyboardWillHide={undefined}
+  onKeyboardWillShow={undefined}
+  onLayout={[Function]}
+  onScroll={[Function]}
+  pageSize={1}
+  removeClippedSubviews={true}
+  renderRow={[Function]}
+  scrollEventThrottle={50}
+  scrollRenderAheadDistance={1000}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }>
+  <View>
+    <View
+      style={
+        Object {
+          "borderColor": "#433d35",
+          "borderTopWidth": 0.5,
+          "flexDirection": "row",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1,
+            "padding": 5,
+          }
+        }>
+        Entré
+      </Text>
+      <View
+        style={
+          Object {
+            "padding": 5,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          12
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        testID={undefined}>
+        <View
+          style={
+            Array [
+              Object {
+                "height": 35,
+                "width": 35,
+              },
+              Object {
+                "backgroundColor": "#60584c",
+              },
+              undefined,
+            ]
+          } />
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "borderColor": "#433d35",
+          "borderTopWidth": 0.5,
+          "flexDirection": "row",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1,
+            "padding": 5,
+          }
+        }>
+        Orange samtal
+      </Text>
+      <View
+        style={
+          Object {
+            "padding": 5,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          2
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        testID={undefined}>
+        <View
+          style={
+            Array [
+              Object {
+                "height": 35,
+                "width": 35,
+              },
+              Object {
+                "backgroundColor": "#60584c",
+              },
+              undefined,
+            ]
+          } />
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "borderColor": "#433d35",
+          "borderTopWidth": 0.5,
+          "flexDirection": "row",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1,
+            "padding": 5,
+          }
+        }>
+        Rosa samtal
+      </Text>
+      <View
+        style={
+          Object {
+            "padding": 5,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          2
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        testID={undefined}>
+        <View
+          style={
+            Array [
+              Object {
+                "height": 35,
+                "width": 35,
+              },
+              Object {
+                "backgroundColor": "#60584c",
+              },
+              undefined,
+            ]
+          } />
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "borderColor": "#433d35",
+          "borderTopWidth": 0.5,
+          "flexDirection": "row",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1,
+            "padding": 5,
+          }
+        }>
+        Röd konferens
+      </Text>
+      <View
+        style={
+          Object {
+            "padding": 5,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          2
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        testID={undefined}>
+        <View
+          style={
+            Array [
+              Object {
+                "height": 35,
+                "width": 35,
+              },
+              Object {
+                "backgroundColor": "#60584c",
+              },
+              undefined,
+            ]
+          } />
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "borderColor": "#433d35",
+          "borderTopWidth": 0.5,
+          "flexDirection": "row",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1,
+            "padding": 5,
+          }
+        }>
+        Pentry
+      </Text>
+      <View
+        style={
+          Object {
+            "padding": 5,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          5
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            undefined,
+          ]
+        }
+        testID={undefined}>
+        <View
+          style={
+            Array [
+              Object {
+                "height": 35,
+                "width": 35,
+              },
+              Object {
+                "backgroundColor": "#60584c",
+              },
+              undefined,
+            ]
+          } />
+      </View>
+    </View>
+  </View>
+</ScrollView>
+`;
