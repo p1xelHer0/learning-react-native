@@ -1,4 +1,4 @@
-package com.brandskyddreactnative;
+package com.learningreactnative;
 
 import android.app.Application;
 import android.util.Log;
